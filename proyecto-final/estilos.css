@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+}
+
+/* tipografia y textos */
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./fuentes/Lato-Regular.ttf");
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+body {
+    font-family: "Lato-Regular", sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.sinSubrayar {
+    text-decoration: none;
+}
+
+
+
+
+/*clases*/
+
+.tituloPrincipal {
+    background-color: rgb(219, 186, 219);
+    color: slateblue;
+    padding: 20px;
+}
+
+.titulosImagenes {
+    background-color:rgb(179,164,164);
+    color: darkorchid;
+    padding: 10px;
+}
+
+.imagenes {
+    border-radius: 3mp;
+    border: solid 5px rgb(219, 186, 219);
+}
+
+.productosCarrito {
+    display: inline;
+    background-color: white;
+}
+
+.enLinea {
+    display: inline;
+}
+
+
+.enBloque {
+    display: block;
+}
+
+/*por etiquetas*/
+
+ul {
+    background-color: rgb(247, 168, 197);
+    list-style-type: none;
+    height: 50px;
+}
+ul li {
+    display: inline;
+    background-color: rgb(250, 208, 187);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+li:hover {
+    background-color: rgb(255, 227, 227);
+}
+
+p {
+    width: 50%;
+}
+
+footer {
+    background-color: rgb(219,186,219);
+    padding: 20px;
+}
+
+main {
+    background-color: rgb(255, 227, 227);
+}
+
+label {
+    display: block;
+}
